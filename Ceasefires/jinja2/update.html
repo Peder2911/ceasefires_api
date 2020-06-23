@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width" />
+      <title>Update data</title>
+   </head>
+   <body>
+      Update the data!
+      <form action="" method="post" enctype="multipart/form-data">{{ csrf_input }}
+         <input name="dataset" type="file">
+         <input name="something" value="eep" type="text">
+         <input type="submit">
+      </form>
+   </body>
+</html>

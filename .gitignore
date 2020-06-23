@@ -1,0 +1,12 @@
+
+venv/
+
+*.swp
+
+*.py[cod]
+__pycache__/
+
+*/migrations/*
+!*/migrations/__init__.py
+
+*.sqlite3
